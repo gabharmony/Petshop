@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Agendamento | PetsWorld</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <nav class="menu">
+                <div class="espacoNome">
+                    PETSWORLD
+                </div>
+                <div class="conteudo">
+                    <ul class="navbar-nav">
+                        <li class="navbar-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="nav-link" href="loja.html">Loja</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="nav-link" href="agendamento.html">Agendamento</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="nav-link" href="adote.html">Adoção</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="nav-link" href="contato.html">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="container">
+            <div class="agendamento">
+                <div class="textoagendamento">
+                    <h2>Bem-vindos ao Agendamento!</h2>
+                    <br>
+                </div>
+                <h3>Agendamento</h3>
+                <br>
+                <form class="form-main agendamento-pets">
+                    <section class="form-inputLabel">
+                        <label for="nomePet">Nome do Pet:</label>
+                        <input type="text" id="nomePet" placeholder="Nome do Pet" required>
+                    </section>
+                    <section class="form-inputLabel">
+                        <label for="tipoPet">Tipo de Pet:</label>
+                            <select id="tipoPet" required>
+                                <option selected>Escolha o Tipo do seu Pet.</option>
+                                <option value="1">Cachorro</option>
+                                <option value="2">Gato</option>
+                                <option value="3">Pássaro</option>
+                                <option value="4">Coelhos</option>
+                                <option value="5">Outros Pets</option>                                
+                            </select>
+                    </section>
+                    <section class="form-inputLabel">
+                        <label for="portePet">Porte do Pet:</label>
+                        <select id="portePet" required>
+                            <option selected>Escolha o Porte do seu Pet.</option>
+                            <option value="1">Pequeno</option>
+                            <option value="2">Médio</option>
+                            <option value="3">Grande</option>
+                            <option value="4">Gigantes</option>
+                        </select>
+                    </section>
+                    <section class="form-inputLabel">
+                        <label for="servicoPet">Serviço:</label>
+                        <select id="servicoPet" required>
+                            <option selected>Escolha o serviço.</option>
+                            <option value="1">Banho</option>
+                            <option value="2">Tosa</option>
+                            <option value="3">Banho e Tosa</option>
+                            <option value="4">Veterinário</option>
+                        </select>
+                    </section>
+                    <section class="form-inputLabel">
+                        <label for="nomeDono">Nome do Dono:</label>
+                        <input type="text" id="nomeDono" placeholder="Nome do Dono" required>
+                    </section>
+                    <section class="form-inputLabel">
+                        <label for="celDono">Celular do Dono:</label>
+                        <input type="tel" id="celDono" placeholder="(DDD) 9xxxx-xxxx" required>
+                    </section>
+                    <section class="form-inputLabel">
+                        <label for="telDono">Telefone do Dono:</label>
+                        <input type="tel" id="telDono" placeholder="(DDD) xxxx-xxxx" required>
+                    </section>
+                    <section class="form-inputLabel">
+                        <label for="emailDono">E-mail do Dono:</label>
+                        <input type="email" id="emailDono" placeholder="donos.pets@petsworld.com" required>
+                    </section>
+                    <section class="form-inputLabel">
+                        <label for="observacaoPet">Observação:</label>
+                        <textarea placeholder="Escreva a observação aqui."></textarea>
+                    </section>
+                    <section class="form-inputLabel">
+                        <input type="submit" class="btn-enviar">
+                    </section>
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+            <footer class="rodape">
+                <ul class="linhaRodape">
+                    <li class="rodape-item">  
+                        <div class="mapaSite">
+                            <ul class="linkMapaSite">
+                                <li><a class="linkSite" href="index.html">Home</a></li>
+                                <li><a class="linkSite" href="loja.html">Loja</a></li>
+                                <li><a class="linkSite" href="agendamento.html">Agendamento</a></li>
+                                <li><a class="linkSite" href="adote.html">Adoção</a></li>
+                                <li><a class="linkSite" href="contato.html">Contato</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="rodape-item">
+                        <div class="marca">
+                            <h4>PETSWORLD</h4>
+                            <small>&copy; 2017–2022</small>
+                        </div>
+                    </li>
+                </ul>
+            </footer>
+        </div>
+    </body>
+</html>    
